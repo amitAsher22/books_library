@@ -1,0 +1,177 @@
+[
+    {
+        "id": "1",
+        "title": "In Search of Lost Time",
+        "writer": "Marcel Proust",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/7hqv6ddaqv363p4hadx6lymotow1",
+        "summary": "Swann's Way, the first part of A la recherche de temps perdu, Marcel Proust's seven-part cycle, was published in 1913. In it, Proust introduces the themes that run through the entire work. The narr..."
+    },
+    {
+        "id": "2",
+        "title": "Ulysses",
+        "writer": "James Joyce",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/f7nkbyqfsnrrlct3hs01jkrz2vdi",
+        "summary": "Ulysses chronicles the passage of Leopold Bloom through Dublin during an ordinary day, June 16, 1904. The title parallels and alludes to Odysseus (Latinised into Ulysses), the hero of Homer's Odyss..."
+    },
+    {
+        "id": "3",
+        "title": "Don Quixote",
+        "writer": "Miguel de Cervantes",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/g4jrxoz24986xjhq5bp7etyfrsk0",
+        "summary": "Alonso Quixano, a retired country gentleman in his fifties, lives in an unnamed section of La Mancha with his niece and a housekeeper. He has become obsessed with books of chivalry, and believes th..."
+    },
+    {
+        "id": "4",
+        "title": "One Hundred Years of Solitude",
+        "writer": "Gabriel Garcia Marquez",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/evtw45j15ooutm5tnz3ev1r9lk0e",
+        "summary": "One of the 20th century's enduring works, One Hundred Years of Solitude is a widely beloved and acclaimed novel known throughout the world, and the ultimate achievement in a Nobel Prize–winning car..."
+    },
+    {
+        "id": "5",
+        "title": "The Great Gatsby",
+        "writer": "F. Scott Fitzgerald",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/4hkku1sl8y3fh8ggaazav5o65uqp",
+        "summary": "The novel chronicles an era that Fitzgerald himself dubbed the \"Jazz Age\". Following the shock and chaos of World War I, American society enjoyed unprecedented levels of prosperity during the \"roar..."
+    },
+    {
+        "id": "6",
+        "title": "Moby Dick",
+        "writer": "Herman Melville",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/epke1jolmtb858vv9ctbtxpa8yi6",
+        "summary": "First published in 1851, Melville's masterpiece is, in Elizabeth Hardwick's words, \"the greatest novel in American literature.\" The saga of Captain Ahab and his monomaniacal pursuit of the white wh..."
+    },
+    {
+        "id": "7",
+        "title": "War and Peace",
+        "writer": "Leo Tolstoy",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/hwi2qqngyicqz7s7ps4x4k1ei14k",
+        "summary": "Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of fi..."
+    },
+    {
+        "id": "8",
+        "title": "Hamlet",
+        "writer": "William Shakespeare",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/lunn7h6g4t5p27ene642364pu4l3",
+        "summary": "The Tragedy of Hamlet, Prince of Denmark, or more simply Hamlet, is a tragedy by William Shakespeare, believed to have been written between 1599 and 1601. The play, set in Denmark, recounts how Pri..."
+    },
+    {
+        "id": "9",
+        "title": "The Odyssey",
+        "writer": "Homer",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/jyx2n4emuiwjjfu682ylkh10xyoj",
+        "summary": "The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work traditionally ascribed to Homer. The poem is fundamental to the m..."
+    },
+    {
+        "id": "10",
+        "title": "Madame Bovary",
+        "writer": "Gustave Flaubert",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/rtw3xjyjbcouewfrbpz5lcx5e6yf",
+        "summary": "For daring to peer into the heart of an adulteress and enumerate its contents with profound dispassion, the author of Madame Bovary was tried for \"offenses against morality and religion.\" What shoc..."
+    },
+    {
+        "id": "11",
+        "title": "The Divine Comedy",
+        "writer": "Dante Alighieri",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/r3pnyg732gdvkmh8pik9p0b5ct6y",
+        "summary": "Belonging in the immortal company of the great works of literature, Dante Alighieri's poetic masterpiece, The Divine Comedy, is a moving human drama, an unforgettable visionary journey through the ..."
+    },
+    {
+        "id": "12",
+        "title": "Lolita",
+        "writer": "Vladimir Nabokov",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/cuqzoi0t52xnb7cjhdzrfuc7rjj4",
+        "summary": "The book is internationally famous for its innovative style and infamous for its controversial subject: the protagonist and unreliable narrator, middle aged Humbert Humbert, becomes obsessed and se..."
+    },
+    {
+        "id": "13",
+        "title": "The Brothers Karamazov",
+        "writer": "Fyodor Dostoyevsky",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/ctt318djdthx536i3glgdw270dyq",
+        "summary": "Dostoevsky's last and greatest novel, The Karamazov Brothers, is both a brilliantly told crime story and a passionate philosophical debate. The dissolute landowner Fyodor Pavlovich Karamazov is mur..."
+    },
+    {
+        "id": "14",
+        "title": "Crime and Punishment",
+        "writer": "Fyodor Dostoyevsky",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/t25h3cf21f4l535cyl9tw5l4kfpb",
+        "summary": "It is a murder story, told from a murder;s point of view, that implicates even the most innocent reader in its enormities. It is a cat-and-mouse game between a tormented young killer and a cheerful..."
+    },
+    {
+        "id": "15",
+        "title": "Wuthering Heights",
+        "writer": "Emily Brontë",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/43ma2b4rlzqbh8181hj7dnpuz5at",
+        "summary": "The narrative is non-linear, involving several flashbacks, and two primary narrators: Mr. Lockwood and Ellen \"Nelly\" Dean. The novel opens in 1801, with Mr. Lockwood arriving at Thrushcross Grange,..."
+    },
+    {
+        "id": "16",
+        "title": "The Catcher in the Rye",
+        "writer": "J. D. Salinger",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/arrd4a0qpe7i6ff6jtfmtllqcl6v",
+        "summary": "The Catcher in the Rye is a 1945 novel by J. D. Salinger. Originally published for adults, the novel has become a common part of high school and college curricula throughout the English-speaking wo..."
+    },
+    {
+        "id": "17",
+        "title": "Pride and Prejudice",
+        "writer": "Jane Austen",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/9cog4dgini9h6w68jtwvilq0opvy",
+        "summary": "The book is narrated in free indirect speech following the main character Elizabeth Bennet as she deals with matters of upbringing, marriage, moral rightness and education in her aristocratic socie..."
+    },
+    {
+        "id": "18",
+        "title": "The Adventures of Huckleberry Finn",
+        "writer": "Mark Twain",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/phz3vc780qvnafu8phrzjyptq75a",
+        "summary": "Revered by all of the town's children and dreaded by all of its mothers, Huckleberry Finn is indisputably the most appealing child-hero in American literature. Unlike the tall-tale, idyllic worl..."
+    },
+    {
+        "id": "19",
+        "title": "Anna Karenina",
+        "writer": "Leo Tolstoy",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/kv7bohlfznregsg7wuttncytwvvv",
+        "summary": "Anna Karenina tells of the doomed love affair between the sensuous and rebellious Anna and the dashing officer, Count Vronsky. Tragedy unfolds as Anna rejects her passionless marriage and must endu..."
+    },
+    {
+        "id": "20",
+        "title": "Alice's Adventures in Wonderland",
+        "writer": "Lewis Carroll",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/f8uct7xgd8cz5cw1dsz54zc6swlc",
+        "summary": "In 1862 Charles Lutwidge Dodgson, a shy Oxford mathematician with a stammer, created a story about a little girl tumbling down a rabbit hole. Thus began the immortal adventures of Alice, perhaps th..."
+    },
+    {
+        "id": "21",
+        "title": "The Iliad",
+        "writer": "Homer",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/kudnd6hjgwhd190ozepfx6g8js7g",
+        "summary": "The Iliad is an epic poem in dactylic hexameters, traditionally attributed to Homer. Set in the Trojan War, the ten-year siege of Ilium by a coalition of Greek states, it tells of the battles and e..."
+    },
+    {
+        "id": "22",
+        "title": "To the Lighthouse",
+        "writer": "Virginia Woolf",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/kazhz5lkzb7az4tcygl1ov67exhr",
+        "summary": "A landmark novel of high modernism, the text, centering on the Ramsay family and their visits to the Isle of Skye in Scotland between 1910 and 1920, skillfully manipulates temporality and psycholog..."
+    },
+    {
+        "id": "23",
+        "title": "Catch-22",
+        "writer": "Joseph Heller",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/o6ygsbi6c0q1nl9z38x6c6027sxo",
+        "summary": "Catch-22 is a satirical, historical novel by the American author Joseph Heller, first published in 1961. The novel, set during the later stages of World War II from 1943 onwards, is frequently cite..."
+    },
+    {
+        "id": "24",
+        "title": "Heart of Darkness",
+        "writer": "Joseph Conrad",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/tyxilwq93riaj4702yj9ntkf6o8g",
+        "summary": "The story details an incident when Marlow, an Englishman, took a foreign assignment from a Belgian trading company as a ferry-boat captain in Africa. Although Conrad does not specify the name of th..."
+    },
+    {
+        "id": "25",
+        "title": "The Sound and the Fury",
+        "writer": "William Faulkner",
+        "img": "https://d3i5mgdwi2ze58.cloudfront.net/zqqerjm8ewv5z75v1cnk9wmno0rp",
+        "summary": "The Sound and the Fury is set in the fictional Yoknapatawpha County. The novel centers on the Compson family, former Southern aristocrats who are struggling to deal with the dissolution of their fa..."
+    }
+]
