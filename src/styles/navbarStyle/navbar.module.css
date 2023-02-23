@@ -4,29 +4,23 @@
   height: 80px;
   width: 100%;
   margin: 0px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   justify-items: center;
   margin: auto;
-
 }
 
 .middle {
-
-
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .divImgBook {
   width: 50px;
   padding: 0px;
-
 }
 
 .IconNavbar {
@@ -38,14 +32,9 @@
   display: flex;
   justify-items: center;
   align-items: center;
-
   justify-content: space-around;
   font-weight: 100px;
-
   gap: 0px 2.9rem;
-
-
-
 }
 
 .right {
@@ -56,8 +45,6 @@
 }
 
 .search {
-
-
   border: none;
   padding: 0.5rem;
   border-radius: 2rem;
@@ -66,19 +53,20 @@
   color: white;
   width: 100%;
   border: solid 1px white;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .category {
   color: white;
-  font-size: 1rem;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 
 /* responsive nav bar */
 .hamburger {
   display: none;
-
 }
 
 @media only screen and (orientation: portrait) {
