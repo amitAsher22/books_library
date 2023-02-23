@@ -16,7 +16,8 @@
 
 .titleBookR {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bolder;
+
 }
 
 .conteainerDiv {
@@ -37,16 +38,15 @@
 }
 
 .writerBook {
-  font-weight: 400;
+  font-weight: 800;
   font-size: 20px;
-  color: rgb(145, 145, 145);
-
+  color: #000000B5
 }
 
 .summaryBook {
   font-size: 20px;
   margin-top: 2rem;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .buttonWishListBook {
@@ -95,7 +95,7 @@
   padding-top: 5rem;
   padding-bottom: 2rem;
   margin: 0px;
-  font-weight: 800;
+  font-weight: bolder;
   line-height: 42.36px;
 }
 
@@ -180,7 +180,7 @@
 
 
 .styleWriter {
-  color: grey;
+  color: #898787;
   font-size: 14px;
   margin: 0.3rem 0px;
   font-weight: 400;
