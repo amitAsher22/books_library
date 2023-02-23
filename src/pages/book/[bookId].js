@@ -3,8 +3,8 @@ import booksDetails from "../../data_books/books.json";
 import bookStyle from "../../styles/BookId.module.css";
 import NavBar from "@/components/navBar/NavBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckSquare, faCoffee } from "@fortawesome/fontawesome-free-solid";
 import { faHeart } from "@fortawesome/fontawesome-free-solid";
+import Footer from "@/components/footer/Footer";
 
 export default function BookId({ book, newArrayRandom5Books }) {
   return (
@@ -62,6 +62,7 @@ export default function BookId({ book, newArrayRandom5Books }) {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -1,7 +1,7 @@
-import stylefotter from ".././style/FotterStyle.module.css";
+import footerStyle from "../../styles/FotterStyle.module.css";
 
 const Footer = () => {
-  return <div className={stylefotter.head}></div>;
+  return <footer className={footerStyle.head}>All rights reserved ©</footer>;
 };
 
 export default Footer;
