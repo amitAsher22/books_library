@@ -203,3 +203,19 @@
   font-size: 1rem;
   color: rgb(80, 81, 81);
 }
+
+/*media query*/
+
+@media only screen and (orientation: portrait) {
+  .divRandomBooks {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden
+  }
+
+  .containerImages {
+    width: 330px;
+    height: 490px;
+
+  }
+}
