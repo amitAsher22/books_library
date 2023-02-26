@@ -11,7 +11,9 @@ export default function BookId({ book, newArrayRandom5Books }) {
     <>
       <NavBar />
       <div className={bookStyle.mainBook}>
-        <span className={bookStyle.navigationPage}>Home / {book.title}</span>
+        <span className={bookStyle.navigationPage}>
+          <span>Home /</span> {book.title}
+        </span>
         <div className={bookStyle.conteainerDiv}>
           <div className={bookStyle.divImgBook}>
             <img
