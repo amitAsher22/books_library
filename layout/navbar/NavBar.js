@@ -1,8 +1,4 @@
-import { useState } from "react";
-import styleNav from "../../styles/navbarStyle/navbar.module.css";
-
-import listData from "../../data_books/books.json";
-import ShowBooks from "../ShowBooks";
+import styleNav from "./navbar.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavBar = () => {

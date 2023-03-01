@@ -1,4 +1,4 @@
-import footerStyle from "../../styles/FotterStyle.module.css";
+import footerStyle from "./Footer.module.css";
 
 const Footer = () => {
   return <footer className={footerStyle.head}>All rights reserved ©</footer>;

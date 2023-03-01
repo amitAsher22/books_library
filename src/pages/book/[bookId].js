@@ -1,15 +1,12 @@
 import React from "react";
 import booksDetails from "../../data_books/books.json";
 import bookStyle from "../../styles/BookId.module.css";
-import NavBar from "@/components/navBar/NavBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/fontawesome-free-solid";
-import Footer from "@/components/footer/Footer";
 
 export default function BookId({ book, newArrayRandom5Books }) {
   return (
     <>
-      <NavBar />
       <div className={bookStyle.mainBook}>
         <span className={bookStyle.navigationPage}>
           <span>Home /</span> {book.title}
@@ -64,7 +61,6 @@ export default function BookId({ book, newArrayRandom5Books }) {
           })}
         </div>
       </div>
-      <Footer />
     </>
   );
 }
