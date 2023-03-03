@@ -94,3 +94,10 @@
   background-color: wheat;
   color: rgb(32, 30, 30);
 }
+
+.inputValue {
+  padding: 1rem 2rem;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 2rem;
+}
