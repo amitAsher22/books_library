@@ -38,7 +38,11 @@ const ShowBooks = () => {
       <div className={styles.container}>
         {valueInput === ""}
         {listbooksData
-          .filter((item) => item.title.toLowerCase().includes(valueOfInput))
+          .filter(
+            (item) =>
+              item.title.toLowerCase().includes(valueOfInput) ||
+              item.writer.toLowerCase().includes(valueOfInput)
+          )
           .map((book) => {
             return (
               <div key={book.id} className={styles.card}>
