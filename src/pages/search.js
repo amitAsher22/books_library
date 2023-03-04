@@ -1,9 +1,10 @@
-import styles from ".././styles/ShowBooks.module.css";
-import Link from "next/link";
+import styles from ".././styles/Search.module.css";
+
 import dataFromJson from ".././data_books/books.json";
 import { useState } from "react";
+import Card from "@/components/card";
 
-const ShowBooks = () => {
+const search = () => {
   const [listbooksData, setlisrbooksData] = useState(dataFromJson);
   const [valueOfInput, setvalueOfInput] = useState("");
 
@@ -40,31 +41,11 @@ const ShowBooks = () => {
 
       <div className={styles.container}>
         {listbooksData.map((book) => {
-          return (
-            <div key={book.id} className={styles.card}>
-              <div className={styles.containerImgBook}>
-                <img
-                  src={book.img}
-                  alt={book.title}
-                  className={styles.imgBook}
-                />
-              </div>
-              <h1>{book.title}</h1>
-              <div className={styles.show}>
-                <Link
-                  href={`/book/${book.title.replace(/\s/g, "-").toLowerCase()}`}
-                >
-                  <button className={styles.button_link_book}>
-                    To The Book
-                  </button>
-                </Link>
-              </div>
-            </div>
-          );
+          return <Card book={book} />;
         })}
       </div>
     </>
   );
 };
 
-export default ShowBooks;
+export default search;
