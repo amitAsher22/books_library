@@ -1,18 +1,20 @@
 import React from "react";
 import booksDetails from "../../data_books/books.json";
 import bookStyle from "../../styles/BookId.module.css";
-import NavBar from "@/components/navBar/NavBar";
-// import { FcLike } from "react-icons/fc";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckSquare, faCoffee } from "@fortawesome/fontawesome-free-solid";
 import { faHeart } from "@fortawesome/fontawesome-free-solid";
+import Head from "next/head";
 
 export default function BookId({ book, newArrayRandom5Books }) {
   return (
     <>
-      <NavBar />
+      <Head>
+        <title>books library | {book.title}</title>
+      </Head>
       <div className={bookStyle.mainBook}>
-        <span className={bookStyle.navigationPage}>Home / {book.title}</span>
+        <span className={bookStyle.navigationPage}>
+          <span>Home /</span> {book.title}
+        </span>
         <div className={bookStyle.conteainerDiv}>
           <div className={bookStyle.divImgBook}>
             <img
