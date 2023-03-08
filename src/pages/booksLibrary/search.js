@@ -4,6 +4,7 @@ import dataFromJson from "../../data_books/books.json";
 import { useState } from "react";
 import Card from "@/components/card";
 import Head from "next/head";
+import NavBar from "layout/navbar/NavBar";
 
 const search = () => {
   const [listbooksData, setlisrbooksData] = useState(dataFromJson);
@@ -31,6 +32,7 @@ const search = () => {
 
   return (
     <>
+      <NavBar />
       <Head>
         <title>books library | search</title>
       </Head>

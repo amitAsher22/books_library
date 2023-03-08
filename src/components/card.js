@@ -10,9 +10,7 @@ export default function card({ book }) {
       </div>
       <h1>{book.title}</h1>
       <div className={styles.show}>
-        <Link
-          href={`booksLibrary/${book.title.replace(/\s/g, "-").toLowerCase()}`}
-        >
+        <Link href={`book/${book.title.replace(/\s/g, "-").toLowerCase()}`}>
           <button className={styles.button_link_book}>To The Book</button>
         </Link>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import booksDetails from "../../data_books/books.json";
 import bookStyle from "../../styles/BookId.module.css";
-import NavBar from "@/components/navBar/NavBar";
+import NavBar from "layout/navbar/NavBar";
 // import { FcLike } from "react-icons/fc";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckSquare, faCoffee } from "@fortawesome/fontawesome-free-solid";

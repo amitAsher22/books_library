@@ -1,6 +1,6 @@
 // import ShowBooks from "@/components/ShowBooks";
 
-import NavBar from "@/components/navBar/NavBar";
+import NavBar from "../../layout/navbar/Navbar.js";
 import ShowBooks from "@/components/ShowBooks";
 
 export default function Home() {
