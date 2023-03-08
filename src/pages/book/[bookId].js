@@ -2,14 +2,17 @@ import React from "react";
 import booksDetails from "../../data_books/books.json";
 import bookStyle from "../../styles/BookId.module.css";
 import NavBar from "layout/navbar/NavBar";
-// import { FcLike } from "react-icons/fc";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckSquare, faCoffee } from "@fortawesome/fontawesome-free-solid";
 import { faHeart } from "@fortawesome/fontawesome-free-solid";
+import Head from "next/head";
+import oneBookRandom from "@/components/oneBookRandom/oneBookRandom";
 
 export default function BookId({ book, newArrayRandom5Books }) {
   return (
     <>
+      <Head>
+        <title>books library | {book.title}</title>
+      </Head>
       <NavBar />
       <div className={bookStyle.mainBook}>
         <span className={bookStyle.navigationPage}>Home / {book.title}</span>
@@ -40,28 +43,7 @@ export default function BookId({ book, newArrayRandom5Books }) {
         <p className={bookStyle.titleRandomBooks}>
           You may be interesting with
         </p>
-
-        <div className={bookStyle.divRandomBooks}>
-          {newArrayRandom5Books.map((randomBook) => {
-            return (
-              <div className={bookStyle.mainBookSpecific}>
-                <div className={bookStyle.containerImages}>
-                  <img
-                    className={bookStyle.imgRandomSingleBook}
-                    src={randomBook.img}
-                    alt={randomBook.title}
-                  />
-                </div>
-                <span className={bookStyle.styleWriter}>
-                  {randomBook.writer}
-                </span>
-                <span className={bookStyle.nameOfTitleBook}>
-                  {randomBook.title}
-                </span>
-              </div>
-            );
-          })}
-        </div>
+        <oneBookRandom newArrayRandom5Books={newArrayRandom5Books} />
       </div>
     </>
   );

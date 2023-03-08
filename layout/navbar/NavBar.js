@@ -20,11 +20,11 @@ const NavBar = () => {
             <Link href="/">
               <span className={styleNav.category}>Home</span>
             </Link>
-            <Link href={"/booksLibrary/myBooks"}>
+            <Link href={"/myBooks"}>
               <span className={styleNav.category}>My books</span>
             </Link>
           </div>
-          <Link href={"/booksLibrary/search"}>
+          <Link href={"/search"}>
             <div className={styleNav.right}>
               <span className={styleNav.category}>Search</span>
             </div>

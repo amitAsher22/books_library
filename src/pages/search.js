@@ -1,6 +1,6 @@
-import styles from "../../styles/Search.module.css";
+import styles from ".././styles/Search.module.css";
 
-import dataFromJson from "../../data_books/books.json";
+import dataFromJson from ".././data_books/books.json";
 import { useState } from "react";
 import Card from "@/components/card";
 import Head from "next/head";
