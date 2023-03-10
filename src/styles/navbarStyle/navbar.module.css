@@ -81,7 +81,7 @@
 
 /* responsive nav bar */
 .hamburger {
-  display: none;
+  display: block;
 
 }
 

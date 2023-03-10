@@ -9,6 +9,7 @@
   align-items: center;
   justify-items: center;
   margin: auto;
+
 }
 
 .middle {
@@ -35,6 +36,7 @@
   justify-content: space-around;
   font-weight: 100px;
   gap: 0px 2.9rem;
+
 }
 
 .right {
@@ -42,6 +44,7 @@
   width: 20%;
   justify-content: space-around;
   color: white;
+
 }
 
 .search {
@@ -61,16 +64,26 @@
   color: white;
   font-size: 20px;
   font-weight: 400;
+  text-decoration: none;
+
 }
 
 
 /* responsive nav bar */
-.hamburger {
+.container .show {
   display: none;
+
+
 }
 
+
+
+
+
+
+
 @media only screen and (orientation: portrait) {
-  .hamburger {
+  .container .show {
     color: white;
     font-size: 2rem;
     display: block;

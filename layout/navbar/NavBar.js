@@ -1,4 +1,4 @@
-import styleNav from "./navbar.module.css";
+import styleNav from "./Navbar.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Link from "next/link";
 
@@ -31,7 +31,7 @@ const NavBar = () => {
           </Link>
         </div>
 
-        <GiHamburgerMenu className={styleNav.hamburger} />
+        <GiHamburgerMenu className={styleNav.show} />
       </div>
     </>
   );

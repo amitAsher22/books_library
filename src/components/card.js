@@ -7,7 +7,7 @@ export default function card({ book }) {
   return (
     <>
       <Head>
-        <title>books library | {book.title}</title>
+        <>books library | {book.title}</>
       </Head>
       <div key={book.id} className={styles.card}>
         <div className={styles.containerImgBook}>
