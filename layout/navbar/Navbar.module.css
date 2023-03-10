@@ -76,7 +76,13 @@
 
 }
 
+.left a {
+  text-decoration: none;
+}
 
+.right a {
+  text-decoration: none;
+}
 
 
 
